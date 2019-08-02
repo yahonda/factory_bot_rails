@@ -21,7 +21,7 @@ appraise "rails5.2" do
 end
 
 appraise "rails6.0" do
-  gem "rails", "~> 6.0.0.rc1"
+  gem "rails", "~> 6.0.0.rc2"
   gem "bootsnap"
   gem "byebug"
   gem "capybara"
