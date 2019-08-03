@@ -11,9 +11,6 @@ rvm:
   - 2.5
   - 2.6
   - ruby-head
-branches:
-  only:
-    - master
 install:
   - "bundle install --retry 3 --jobs 8"
 gemfile:
